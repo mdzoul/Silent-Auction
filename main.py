@@ -45,7 +45,7 @@ while not end_auction:
         text_logo()
         
         name = input("What is your name? ").capitalize()
-        bid = int(input("What is your bid? "))
+        bid = int(input("How much is your bid? "))
         name_bid[name] = bid
         
         add_player = input("\nDo you want to add player? Y/N ").lower()
