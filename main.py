@@ -56,11 +56,10 @@ while not end_auction:
         elif add_player == "n":
             auction = False
             clear()
+            find_highest_bid()
         else:
             print("\33[31m[Invaild input]\33[0m")
-    
-    find_highest_bid()
-    
+        
     # If there is another bid
     cont_bid = input("Bid another item? Y/N ").lower()
     if cont_bid == "y":
