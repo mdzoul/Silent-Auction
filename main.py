@@ -29,7 +29,7 @@ Please make your payment and collect your \33[1m{auction_item}\33[0m.
 end_auction = False
 while not end_auction:
     text_logo()
-    print("\33[4;32mWelcome to the silent auction!\33[0m\n")
+    print("\33[4;32mWelcome to the silent auction program\33[0m\n")
     
     # Choose item to bid on and the currency to bid with
     auction_item = input("What are you bidding on? ")
